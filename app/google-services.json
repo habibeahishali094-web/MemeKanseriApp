@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "560081176731",
+    "project_id": "mobilsaglikuyg",
+    "storage_bucket": "mobilsaglikuyg.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:560081176731:android:6729ed1e2bae4cb252de3e",
+        "android_client_info": {
+          "package_name": "com.example.myapplicationhafta2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBASRg2mntfbFLTDGm09nBXGE8cX1NQl-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

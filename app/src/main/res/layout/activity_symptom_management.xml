@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#26A69A"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="16dp">
+
+        <TextView
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="←"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:paddingEnd="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Belirtiler"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#80CBC4"
+                android:text="Belirtinizi seçiniz"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:padding="12dp"
+                android:layout_marginBottom="16dp"/>
+
+            <LinearLayout android:id="@+id/btnInfection" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:paddingVertical="12dp" android:gravity="center_vertical" android:background="?attr/selectableItemBackground">
+                <TextView android:layout_width="32dp" android:layout_height="32dp" android:background="#F06292" android:text="E" android:textColor="#FFF" android:gravity="center" android:textStyle="bold"/>
+                <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Enfeksiyon" android:textSize="16sp" android:layout_marginStart="16dp" android:textColor="#333"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=">" android:textColor="#BDBDBD" android:textSize="18sp"/>
+            </LinearLayout>
+
+            <LinearLayout android:id="@+id/btnBleeding" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:paddingVertical="12dp" android:gravity="center_vertical" android:background="?attr/selectableItemBackground">
+                <TextView android:layout_width="32dp" android:layout_height="32dp" android:background="#F06292" android:text="K" android:textColor="#FFF" android:gravity="center" android:textStyle="bold"/>
+                <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Kanama" android:textSize="16sp" android:layout_marginStart="16dp" android:textColor="#333"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=">" android:textColor="#BDBDBD" android:textSize="18sp"/>
+            </LinearLayout>
+
+            <LinearLayout android:id="@+id/btnPain" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:paddingVertical="12dp" android:gravity="center_vertical" android:background="?attr/selectableItemBackground">
+                <TextView android:layout_width="32dp" android:layout_height="32dp" android:background="#F06292" android:text="A" android:textColor="#FFF" android:gravity="center" android:textStyle="bold"/>
+                <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Ağrı" android:textSize="16sp" android:layout_marginStart="16dp" android:textColor="#333"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=">" android:textColor="#BDBDBD" android:textSize="18sp"/>
+            </LinearLayout>
+
+            <LinearLayout android:id="@+id/btnNausea" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:paddingVertical="12dp" android:gravity="center_vertical" android:background="?attr/selectableItemBackground">
+                <TextView android:layout_width="32dp" android:layout_height="32dp" android:background="#F06292" android:text="B" android:textColor="#FFF" android:gravity="center" android:textStyle="bold"/>
+                <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Bulantı ve Kusma" android:textSize="16sp" android:layout_marginStart="16dp" android:textColor="#333"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=">" android:textColor="#BDBDBD" android:textSize="18sp"/>
+            </LinearLayout>
+
+            <LinearLayout android:id="@+id/btnFatigue" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:paddingVertical="12dp" android:gravity="center_vertical" android:background="?attr/selectableItemBackground">
+                <TextView android:layout_width="32dp" android:layout_height="32dp" android:background="#F06292" android:text="Y" android:textColor="#FFF" android:gravity="center" android:textStyle="bold"/>
+                <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Yorgunluk ve Halsizlik" android:textSize="16sp" android:layout_marginStart="16dp" android:textColor="#333"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=">" android:textColor="#BDBDBD" android:textSize="18sp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
